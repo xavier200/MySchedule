@@ -1,0 +1,48 @@
+table{
+  text-align: left;
+}
+
+td {
+  height: 100px;
+  width: 120px;
+}
+
+th.thick{
+  font-weight: bold;
+}
+
+th{
+  text-decoration: underline;
+}
+
+th{
+  background-color: rgb(216,216,168);
+  /* Color Palette adapted from
+  http://www.colourlovers.com/color/D8D8A8/Muted_Life :
+   */
+}
+tr.green{
+  color: rgb(60, 16, 233);
+  background-color: rgb(47,206,3);
+    /* Color Palettes adapted from:
+     http://http://www.colourlovers.com/palette/159853/Pink_Parrot
+     http://www.colourlovers.com/color/3C10E9/rmsavdavd */
+}
+tr.red{
+  color: rgb(255, 199, 44);
+  background-color: rgb(240, 0, 0);
+  /* color Palette adapted from:
+  http://www.colourlovers.com/palette/154405/Ladbrokes
+  http://www.colourlovers.com/palette/4453647/Team_8*/
+}
+
+tr.red:hover{
+  color: rgb(60, 16, 233);
+  /* Color Palettes adapted from:
+   http://http://www.colourlovers.com/palette/159853/Pink_Parrot */
+}
+tr.green:hover{
+  color: rgb(240, 0, 0);
+/* Color Palettes adapted from:
+http://www.colourlovers.com/palette/4453647/Team_8 */
+}
